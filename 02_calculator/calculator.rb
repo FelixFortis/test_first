@@ -15,5 +15,20 @@ def multiply(nums)
 end
 
 def power(num,pow)
-  num * num
+  num ** pow
+end
+
+def factorial(num)
+  answer = 1
+  if num > 0
+    num.downto(1) do |mult|
+      answer *= mult
+    end
+  elsif
+    num == 0
+    answer = 1
+  else
+    answer = "You broke it"
+  end
+  answer
 end
