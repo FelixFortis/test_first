@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="894878c0-6ff9-4f83-80df-52fd9bf30ef1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_simon_says/simon_says.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03_simon_says/simon_says.rb" afterPath="$PROJECT_DIR$/03_simon_says/simon_says.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Test First.iws" />
@@ -10,11 +10,11 @@
     <file path="/hello_spec.rb" changelist="894878c0-6ff9-4f83-80df-52fd9bf30ef1" time="1366700656728" ignored="false" />
     <file path="/rspec_config.rb" changelist="894878c0-6ff9-4f83-80df-52fd9bf30ef1" time="1366701267150" ignored="false" />
     <file path="/hello.rb" changelist="894878c0-6ff9-4f83-80df-52fd9bf30ef1" time="1366830575283" ignored="false" />
-    <file path="/Dummy.txt" changelist="894878c0-6ff9-4f83-80df-52fd9bf30ef1" time="1366996915256" ignored="false" />
+    <file path="/Dummy.txt" changelist="894878c0-6ff9-4f83-80df-52fd9bf30ef1" time="1367300706105" ignored="false" />
     <file path="/temperature.rb" changelist="894878c0-6ff9-4f83-80df-52fd9bf30ef1" time="1366832245089" ignored="false" />
     <file path="/calculator.rb" changelist="894878c0-6ff9-4f83-80df-52fd9bf30ef1" time="1366958179690" ignored="false" />
     <file path="/calculator_spec.rb" changelist="894878c0-6ff9-4f83-80df-52fd9bf30ef1" time="1366957827234" ignored="false" />
-    <file path="/simon_says.rb" changelist="894878c0-6ff9-4f83-80df-52fd9bf30ef1" time="1366958959823" ignored="false" />
+    <file path="/simon_says.rb" changelist="894878c0-6ff9-4f83-80df-52fd9bf30ef1" time="1367301850534" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,7 @@
       <file leaf-file-name="simon_says_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03_simon_says/simon_says_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="79" column="35" selection-start="1733" selection-end="1734" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -46,7 +46,7 @@
       <file leaf-file-name="simon_says.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/03_simon_says/simon_says.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.26194146">
+            <state line="28" column="28" selection-start="420" selection-end="420" vertical-scroll-proportion="0.73343605">
               <folding />
             </state>
           </provider>
@@ -76,6 +76,7 @@
         <option value="$PROJECT_DIR$/01_temperature/temperature.rb" />
         <option value="$PROJECT_DIR$/02_calculator/calculator.rb" />
         <option value="$PROJECT_DIR$/02_calculator/calculator_spec.rb" />
+        <option value="$PROJECT_DIR$/03_simon_says/simon_says_spec.rb" />
         <option value="$PROJECT_DIR$/03_simon_says/simon_says.rb" />
       </list>
     </option>
@@ -112,6 +113,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -140,19 +142,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="04_pig_latin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test First" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test_first" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="03_simon_says" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
@@ -374,13 +389,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24524158" sideWeight="0.6711111" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24524158" sideWeight="0.6711111" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -458,11 +473,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/00_hello/hello_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rspec_config.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="101" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" />
@@ -530,14 +540,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/03_simon_says/simon_says_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="79" column="35" selection-start="1733" selection-end="1734" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/04_pig_latin/pig_latin_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/03_simon_says/simon_says.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.26194146">
+        <state line="28" column="28" selection-start="420" selection-end="420" vertical-scroll-proportion="0.73343605">
           <folding />
         </state>
       </provider>
