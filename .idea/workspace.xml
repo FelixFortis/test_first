@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="894878c0-6ff9-4f83-80df-52fd9bf30ef1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03_simon_says/simon_says.rb" afterPath="$PROJECT_DIR$/03_simon_says/simon_says.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04_pig_latin/pig_latin.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Test First.iws" />
@@ -10,11 +10,12 @@
     <file path="/hello_spec.rb" changelist="894878c0-6ff9-4f83-80df-52fd9bf30ef1" time="1366700656728" ignored="false" />
     <file path="/rspec_config.rb" changelist="894878c0-6ff9-4f83-80df-52fd9bf30ef1" time="1366701267150" ignored="false" />
     <file path="/hello.rb" changelist="894878c0-6ff9-4f83-80df-52fd9bf30ef1" time="1366830575283" ignored="false" />
-    <file path="/Dummy.txt" changelist="894878c0-6ff9-4f83-80df-52fd9bf30ef1" time="1367300706105" ignored="false" />
+    <file path="/Dummy.txt" changelist="894878c0-6ff9-4f83-80df-52fd9bf30ef1" time="1367687544209" ignored="false" />
     <file path="/temperature.rb" changelist="894878c0-6ff9-4f83-80df-52fd9bf30ef1" time="1366832245089" ignored="false" />
     <file path="/calculator.rb" changelist="894878c0-6ff9-4f83-80df-52fd9bf30ef1" time="1366958179690" ignored="false" />
     <file path="/calculator_spec.rb" changelist="894878c0-6ff9-4f83-80df-52fd9bf30ef1" time="1366957827234" ignored="false" />
     <file path="/simon_says.rb" changelist="894878c0-6ff9-4f83-80df-52fd9bf30ef1" time="1367301850534" ignored="false" />
+    <file path="/pig_latin.rb" changelist="894878c0-6ff9-4f83-80df-52fd9bf30ef1" time="1367699280619" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,19 +35,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="simon_says_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03_simon_says/simon_says_spec.rb">
+      <file leaf-file-name="pig_latin_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04_pig_latin/pig_latin_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="35" selection-start="1733" selection-end="1734" vertical-scroll-proportion="0.0">
+            <state line="4" column="109" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simon_says.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03_simon_says/simon_says.rb">
+      <file leaf-file-name="pig_latin.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/04_pig_latin/pig_latin.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="28" selection-start="420" selection-end="420" vertical-scroll-proportion="0.73343605">
+            <state line="8" column="34" selection-start="204" selection-end="204" vertical-scroll-proportion="0.20955315">
               <folding />
             </state>
           </provider>
@@ -78,6 +79,7 @@
         <option value="$PROJECT_DIR$/02_calculator/calculator_spec.rb" />
         <option value="$PROJECT_DIR$/03_simon_says/simon_says_spec.rb" />
         <option value="$PROJECT_DIR$/03_simon_says/simon_says.rb" />
+        <option value="$PROJECT_DIR$/04_pig_latin/pig_latin.rb" />
       </list>
     </option>
   </component>
@@ -113,7 +115,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -146,33 +147,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test First" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_first" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="03_simon_says" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="FullScreen" value="false" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="RSpec.hello_spec">
     <configuration default="false" name="spec" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
@@ -473,11 +461,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rspec_config.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="101" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00_hello/hello.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0" />
@@ -540,19 +523,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/03_simon_says/simon_says_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="35" selection-start="1733" selection-end="1734" vertical-scroll-proportion="0.0">
+        <state line="79" column="35" selection-start="1733" selection-end="1734" vertical-scroll-proportion="0.39753467">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_simon_says/simon_says.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="28" selection-start="420" selection-end="420" vertical-scroll-proportion="0.73343605">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/04_pig_latin/pig_latin_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="4" column="109" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03_simon_says/simon_says.rb">
+    <entry file="file://$PROJECT_DIR$/04_pig_latin/pig_latin.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="28" selection-start="420" selection-end="420" vertical-scroll-proportion="0.73343605">
+        <state line="8" column="34" selection-start="204" selection-end="204" vertical-scroll-proportion="0.20955315">
           <folding />
         </state>
       </provider>
