@@ -1,12 +1,12 @@
 def translate(string)
-  string.split(" ")
-  string.map do |s|
+  z = string.split(" ")
+  z.each.map do |s|
     if s =~ /^\w[^aeiou]/
       x = s.split("")[0]
-      "#{s}#{x}ay"
-    elsif s =~ /^(a|e|i|o|u)/
+      "#{s}#{x}y"
+    elsif s =~ /^\w(a|e|i|o|u)/
       y = s.split("")[0]
-      "#{s}#{y}y"
+      "#{s[1..s.size]}#{y}ay"
     end
   end
 end
